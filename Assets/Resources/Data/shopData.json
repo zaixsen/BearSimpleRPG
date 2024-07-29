@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": 1,
+    "name": "武器",
+    "iconPath": "Icon/611030",
+    "description": "This is an example item with a description.",
+    "equipType": "Weapon",
+    "buttonType": "Button1"
+  },
+  {
+    "id": 2,
+    "name": "药品",
+    "iconPath": "Icon/611010",
+    "description": "Another example item with its own description.",
+    "equipType": "Drug",
+    "buttonType": "Button2"
+  },
+  {
+    "id": 3,
+    "name": "道具",
+    "iconPath": "Icon/611020",
+    "description": "The third example item with a different description.",
+    "equipType": "Prop",
+    "buttonType": "Button3"
+  }
+]

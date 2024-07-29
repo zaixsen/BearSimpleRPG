@@ -1,0 +1,20 @@
+﻿[
+  {
+    "id": 0,
+    "iconPath": "Icon/1010",
+    "skillPath": "Prefab/Skill/Skill1",
+    "atk": 1
+  },
+  {
+    "id": 1,
+    "iconPath": "Icon/1020",
+    "skillPath": "Prefab/Skill/Skill2",
+    "atk": 1
+  },
+  {
+    "id": 2,
+    "iconPath": "Icon/1030",
+    "skillPath": "Prefab/Skill/Skill3",
+    "atk": 1
+  }
+]

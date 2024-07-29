@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "prefab": "Prefab/Player/Teddy",
+    "icon": null,
+    "goType": 0,
+    "npcType": 0,
+    "x": 0.91,
+    "y": 0.48,
+    "z": -11.15
+  },
+  {
+    "id": 1,
+    "prefab": "Prefab/Goods/Goods",
+    "icon": "Icon/611020",
+    "goType": 3,
+    "npcType": 0,
+    "x": -11.44,
+    "y": 0.8,
+    "z": -14.77
+  },
+  {
+    "id": 2,
+    "prefab": "Prefab/Enemy/TeddyBear",
+    "icon": null,
+    "goType": 1,
+    "npcType": 0,
+    "x": -33.9,
+    "y": 1.18,
+    "z": 9.5
+  },
+  {
+    "id": 3,
+    "prefab": "Prefab/Enemy/TeddyBear",
+    "icon": null,
+    "goType": 1,
+    "npcType": 0,
+    "x": -29.8,
+    "y": 0.7,
+    "z": 10.8
+  },
+  {
+    "id": 4,
+    "prefab": "Prefab/Player/Teddy",
+    "icon": null,
+    "goType": 2,
+    "npcType": 0,
+    "x": -1.3,
+    "y": 0.45,
+    "z": -2.5
+  },
+  {
+    "id": 5,
+    "prefab": "Prefab/Enemy/TeddyBear",
+    "icon": null,
+    "goType": 2,
+    "npcType": 1,
+    "x": -5.1,
+    "y": 0.62,
+    "z": -4.8
+  }
+]
