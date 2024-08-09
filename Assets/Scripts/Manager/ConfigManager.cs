@@ -48,6 +48,4 @@ public class ConfigManager : Singleton<ConfigManager>
 
         bagDatas.Add(bagData);
     }
-
-
 }

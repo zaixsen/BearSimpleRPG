@@ -46,15 +46,20 @@ public class BagView : MonoBehaviour
                 tipButton[1].GetComponentInChildren<Text>().text = "¶ªÆú";
                 tipButton[1].onClick.AddListener(() =>
                 {
-                    BagModel.Instance.RemoveBagData(bagData);
                     var sr = Instantiate(Resources.Load<SpriteRenderer>(PathManager.GOODS_DISCARD));
+                    sr.GetComponent<GoodsItem>().SetData(bagData.shopData);
                     sr.sprite = sprite;
                     sr.transform.position = PlayerController.Instance.transform.position + Vector3.left;
+                    BagModel.Instance.RemoveBagData(bagData);
                 });
                 break;
             case ButtonType.Button2:
+                tipButton[0].GetComponentInChildren<Text>().text = "";
+                tipButton[1].GetComponentInChildren<Text>().text = "";
                 break;
             case ButtonType.Button3:
+                tipButton[0].GetComponentInChildren<Text>().text = "";
+                tipButton[1].GetComponentInChildren<Text>().text = "";
                 break;
             default:
                 break;
